@@ -1,0 +1,11 @@
+/* Test CSS to verify loading */
+body {
+  background-color: #f8fafc !important;
+  color: #1f2937 !important;
+}
+
+.test-red {
+  background-color: red !important;
+  color: white !important;
+  padding: 1rem !important;
+}

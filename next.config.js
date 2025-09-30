@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverComponentsExternalPackages: ["@prisma/client", "prisma"]
-  }
+  serverExternalPackages: ["@prisma/client", "prisma"],
+  outputFileTracingRoot: __dirname
 }
 
 module.exports = nextConfig
